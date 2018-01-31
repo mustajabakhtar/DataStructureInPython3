@@ -1,0 +1,20 @@
+ls -alF
+ls -i (A unique assigned number by kernal to files)
+touch test.txt
+cp -i source destination
+cp -R (Copy recursively)
+mkdir -p dir1/dir2/dir3
+ls -R(Recursevily list all dir and its subdir)
+du -sh * | sort -nr
+grep -v pattern (Exclude the pattern)
+grep -n (print the line number where it has matched)
+grep -c (Count number of line where this pattern has occurred)
+grep -e (Or version with multiple serach arguments)
+tar -cvf test.tar test/ test2/
+tar -xvf test.tar(Extract the content of this file)
+tar -zxvf filename.tgz
+type -a cd
+which cd
+history -a will write the history to bash_history before exiting the shell
+
+
